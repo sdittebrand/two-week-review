@@ -5,7 +5,7 @@ def guessinggame()
     loop do
         guess = gets.chomp.to_i
 
-        if guess = n
+        if guess == n
             puts "You got it right!"
             break
         elsif guess > n 
